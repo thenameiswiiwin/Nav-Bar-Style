@@ -16,6 +16,9 @@ nav {
 	width: 40%;
 	height: 100vh;
 	border-right: 1.5px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 nav ul {
 	display: flex;
@@ -28,6 +31,7 @@ nav ul {
 }
 nav li {
 	text-align: center;
+	width: 100%;
 }
 nav a {
 	text-decoration: none;
@@ -36,10 +40,10 @@ nav a {
 	font-style: italic;
 	font-size: 2rem;
 	display: block;
-	padding: 3rem;
-	margin: 0;
+	padding: 2.9rem;
 }
 nav a:hover {
+	border-right: 1.5px solid black;
 	background: #aaa;
 	color: black;
 	overflow: hidden;
