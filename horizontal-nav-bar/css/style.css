@@ -13,38 +13,32 @@ body {
 	padding: 0;
 }
 nav {
-	width: 100vw;
-	padding: 2.85rem;
 	border-bottom: 1.5px solid black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 nav ul {
 	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	align-items: center;
+	flex-flow: row wrap;
+	justify-content: space-around;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
 nav li {
 	text-align: center;
-	width: 100%;
 }
 nav a {
 	text-decoration: none;
 	color: #aaa;
 	font-weight: bold;
 	font-style: italic;
-	font-size: 1rem;
-	display: in-block;
-	padding: 2.9rem 2.2rem;
+	font-size: 1.2rem;
+	display: inline-block;
+	padding: 1rem;
+	margin: 0;
 }
 nav a:hover {
-	border-bottom: 1.5px solid black;
-	background: #aaa;
+	text-decoration: none;
 	color: black;
-	overflow: hidden;
+	background-color: #aaa;
+	border: 1.5px solid black;
 }
